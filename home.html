@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+   
+
+</head>
+<body>
+    <script>
+        var myCollapseEl = document.getElementById('#carouselExampleControls')
+
+myCollapseEl.addEventListener('shown.bs.collapse', function (event) {
+  // Action to execute once the collapsible area is expanded
+})
+    </script>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mobicart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <input class="form-control me-2 mx-auto" style="width: 1000px;"type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="d-flex justify-content-end">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      UAE
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">cart</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+       
+       </div>
+       
+      </nav>
+      <div>
+        <ul class="navbar navbar-expand-lg navbar-light nav justify-content-center" style="background-color: #e3f2fd;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Mac</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">iphone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mobile phones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ipad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Laptops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Smartwatchs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">camera</a>
+              </li>
+          </ul>
+    </div>
+    <div id="myCarousel" class="carousel slide row " data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner ">
+          <div class="item active " style="width:60px">
+            <img src="apple1.jpg" alt="Los Angeles">
+            
+          </div>
+      
+          
+      
+        </div>
+      
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="iphonemini.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iphone mini</h5>
+              <p class="card-text">AED 999</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="iphonexr.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iphone XR</h5>
+              <p class="card-text">AED 2599</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="apple12pro.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 12pro</h5>
+              <p class="card-text">AED 5999</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+      </body>
+
+      
+      
+    
+</body>
+</html>
